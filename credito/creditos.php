@@ -11,7 +11,7 @@
 <body>
 
     <div class="container">
-        <a href="../index.php" class="btn">← Volver al Registro de Inscripciones</a>
+        <a href="../menu.php" class="btn">← Volver al Registro de Inscripciones</a>
         <h1>Sistema de Créditos para la Tienda</h1>
 
         <h2>Agregar Nuevo Cliente</h2>
