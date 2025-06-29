@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Título de Página</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #DEDEDE; /* Fondo principal de la página */
+            color: #254D32; /* Color de texto general para contraste */
+        }
+
+        header {
+            background-color: #254D32; /* Fondo del encabezado */
+            color: #A8D3A8; /* Color de texto para el encabezado */
+            padding: 20px 0;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .logo-container {
+            flex-shrink: 0; /* Evita que el logo se encoja */
+            margin-right: 20px;
+        }
+
+        .logo-container img {
+            max-height: 80px; /* Altura máxima del logo */
+            width: auto;
+            display: block; /* Para centrar la imagen si es necesario */
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-grow: 1; /* Permite que la navegación ocupe el espacio restante */
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #A8D3A8; /* Color de los enlaces de navegación */
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #DEDEDE; /* Color de los enlaces al pasar el ratón */
+        }
+
+        h1 {
+            color: #254D32; /* Color para títulos principales (H1) */
+            text-align: center;
+            padding: 20px 0;
+            background-color: #A8D3A8; /* Fondo para el H1, si lo deseas */
+            margin: 0; /* Elimina margen predeterminado del h1 */
+        }
+
+        h2, h3 {
+            color: #254D32; /* Color para subtítulos (H2, H3) */
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+
+        .content-section {
+            padding: 20px;
+            margin: 0 20px;
+            background-color: #FFFFFF; /* Un blanco puro para el contenido, para que resalte */
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #254D32; /* Fondo del pie de página */
+            color: #A8D3A8; /* Color de texto del pie de página */
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="ruta/a/tu/logo.png" alt="Logo de la Empresa">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="menu.php">Curso de verano</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>¡Bienvenido a Nuestra Página!</h1>
+
+    <div class="content-section" id="inicio">
+        <h2>Sección de Inicio</h2>
+        <p>Este es el contenido de tu sección de inicio. Aquí puedes presentar tu empresa, tus valores o lo más importante que quieras destacar.</p>
+        <p>El color `#DEDEDE` es ideal para fondos generales por su neutralidad, mientras que `#254D32` (un verde oscuro) ofrece un buen contraste para el texto.</p>
+    </div>
+
+    <div class="content-section" id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <p>Aquí puedes detallar los servicios que ofreces. Utiliza listas o párrafos para describirlos de manera clara y concisa.</p>
+        <ul>
+            <li>Servicio 1</li>
+            <li>Servicio 2</li>
+            <li>Servicio 3</li>
+        </ul>
+    </div>
+
+    <div class="content-section" id="productos">
+        <h2>Nuestros Productos</h2>
+        <p>Esta sección es perfecta para mostrar tus productos, quizás con imágenes y descripciones breves.</p>
+        <p>El color `#A8D3A8` (un verde claro) es excelente para elementos que quieres que destaquen pero sin ser demasiado agresivos, como enlaces o fondos de secciones específicas.</p>
+    </div>
+
+    <div class="content-section" id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Cuéntale a tus visitantes la historia de tu empresa, tu misión y visión.</p>
+    </div>
+
+    <div class="content-section" id="contacto">
+        <h2>Contacto</h2>
+        <p>Proporciona la información de contacto para que tus visitantes puedan comunicarse contigo.</p>
+        <p>Email: <a href="mailto:info@tudominio.com" style="color: #254D32;">info@tudominio.com</a></p>
+        <p>Teléfono: +52 123 456 7890</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Tu Empresa. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
